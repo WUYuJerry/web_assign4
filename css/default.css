@@ -1,0 +1,40 @@
+#nav-info{
+    color: rgb(96,190, 174)
+}
+
+#nav-info .icon{
+    margin-bottom: 10px;
+}
+
+#nd-nav{
+    background-color: rgb(239, 248, 247);
+    color:rgb(96, 190, 174);
+    font-size: 1rem;
+    
+}
+
+#nd-nav div{
+    border-right-style: solid;
+    border-right: 2px;
+    border-color: rgb(217, 239, 236);
+    text-align: center;
+    padding: 10px 0;
+}
+
+#nd-nav div:last-child{
+    
+    margin-bottom: 10px ;
+}
+
+#nd-nav h3{
+    font-size: 2rem;
+}
+
+#archives .title{
+    color: rgb(96, 190, 174);
+    font-size:1.8rem;
+}
+
+#archives time{
+    color: #AAA;
+}

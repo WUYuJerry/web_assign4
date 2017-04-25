@@ -1,0 +1,79 @@
+#wrapper>div {
+    max-width: 350px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*header*/
+
+#nav-info {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#nav-info>.icon {
+    
+    width: 100%;
+    order: 0;
+}
+
+#nav-info img {
+    width: 60px;
+}
+
+#nav-info>nav {
+    width: 100%;
+    order: -1;
+}
+
+#nav-info>nav>ul {
+    padding-left: 0px; 
+}
+
+#nav-info>nav>ul>li {
+    display: inline;
+    font-size: 1.4rem;
+    margin-right: 10px; 
+}
+
+#nav-info>nav>ul>li:last-child {
+    margin-right: 0px; 
+}
+
+#nav-info>aside {
+    display: none;
+}
+
+
+/*main*/
+
+.hero-unit>img {
+    height: 240px;
+}
+
+#titleA,
+#titleB {
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+#titleB {
+    background-color: black;
+    color: white;
+}
+
+#nd-nav {
+    display: none;
+}
+
+#archives>div {
+    margin: 20px 0 20px 0;
+}
